@@ -22,9 +22,8 @@ Feel free to open this example in another tab and follow along as we go through 
 <!DOCTYPE html>
 <html lang="en">
     <body>
-        <script src="https://redom.js.org/redom.min.js"></script>
-        <script>
-            import { el, mount } from "redom";
+        <script type="module">
+            import { el, mount } from "https://redom.js.org/redom.es.min.js";
             const hello = el("h1", "Hello world!");
             mount(document.body, hello);
         </script>
